@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <title> Responsive Portfolio Website | Code4education </title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="shortcut icon" href="images/KCODER-removebg-preview.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <!-- Move to up bottom -->
+    <div class="scroll-button">
+        <a href="#home"><i class="fas fa-arrow-up"></i></a>
+    </div>
+
+    <!-- navigation menu -->
+    <nav>
+        <div class="navbar">
+            <div class="logo"><a href="#">Portfolio.</a></div>
+            <ul class="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <div class="cancel-btn">
+                    <i class="fas fa-times"></i>
+                </div>
+            </ul>
+            <div class="media-icons">
+                <a href=""><i class="fab fa-facebook-f"></i></a>
+                <a href=""><i class="fab fa-twitter"></i></a>
+                <a href=""><i class="fab fa-instagram"></i></a>
+                <a href=""><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+        <div class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- Home Section Start -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <div class="text">
+                <div class="text-one">Hello there !</div>
+                <div class="text-two">I'm DIPAK KUMAL</div>
+                <div class="text-three">Full Stack Web Developer</div>
+                <div class="text-four">From Dang</div>
+            </div>
+            <div class="button">
+                <button>Hire Me</button>
+            </div>
+        </div>
+
+        <div class="image">
+            <img src="images/my-modified.png" alt="">
+        </div>
+
+    </section>
+
+    <!-- About Section Start -->
+    <section class="about" id="about">
+        <div class="content">
+            <div class="title"><span>About Me</span></div>
+            <div class="about-details">
+                <div class="left">
+                    <img src="images/me.JPG" alt="Portfolio">
+                </div>
+                <div class="right">
+                    <div class="topic">Developing Is My Passion</div>
+                    <p>I am a web developer with a passion for creating beautiful and functional websites. I am proficient in a variety of programming languages and have experience working with both front-end and back-end technologies...</p>
+                    <div class="button">
+                        <a href="images/resume.pdf" download><button>Download CV</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- My Skill Section Start -->
+    <section class="skills" id="skills">
+        <div class="content">
+            <div class="title"><span>My Skills</span></div>
+            <div class="row">
+                <div class="col-md-5 col-12 skill__developement skill__developementFront ">
+                    <h3>Frontend Development</h3>
+                    <ul>
+                        <li><i class="fa-solid fa-circle-check"></i>HTML</li>
+                        <li><i class="fa-solid fa-circle-check"></i>CSS</li>
+                    </ul>
+                    <ul>
+                        <li><i class="fa-solid fa-circle-check"></i>BOOTSTRAP</li>
+                        <li><i class="fa-solid fa-circle-check"></i>TAILWAND</li>
+                    </ul>
+                    <ul>
+                        <li><i class="fa-solid fa-circle-check"></i>MATERIAL UI</li>
+                        <li><i class="fa-solid fa-circle-check"></i>REACT JS</li>
+                    </ul>
+                </div>
+                <div class="col-md-2 hidden">
+                    <h5>Hello World</h5>
+                </div>
+                <div class="col-md-5 col-12 skill__developement skill__developementBack">
+                    <h3>Backend Development</h3>
+                    <ul>
+                        <li><i class="fa-solid fa-circle-check"></i>PHP</li>
+                        <li><i class="fa-solid fa-circle-check"></i>NodeJs</li>
+                    </ul>
+                    <ul>
+                        <li><i class="fa-solid fa-circle-check"></i>Mysql</li>
+                        <li><i class="fa-solid fa-circle-check"></i>MongoDB</li>
+                    </ul>
+                    <ul>
+                        <li><i class="fa-solid fa-circle-check"></i>Firebase</li>
+                        <li><i class="fa-solid fa-circle-check"></i>ExpressJs</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-5 col-12 skill__developement skill__developementTools ">
+                <h3>Tools and Extra</h3>
+                <ul>
+                    <li><i class="fa-solid fa-circle-check"></i>Git/Github</li>
+                    <li><i class="fa-solid fa-circle-check"></i>WordPress</li>
+                </ul>
+                <ul>
+                    <li><i class="fa-solid fa-circle-check"></i>VS Code</li>
+                    <li><i class="fa-solid fa-circle-check"></i>Post Man/API</li>
+                </ul>
+                <ul>
+                    <li><i class="fa-solid fa-circle-check"></i>Figma/Adobe</li>
+                    <li><i class="fa-solid fa-circle-check"></i>Docker</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- My Services Section Start -->
+    <section class="services" id="services">
+        <div class="content">
+            <div class="title"><span>My Services</span></div>
+            <div class="boxes">
+                <div class="box">
+                    <div class="icon">
+                        <i class="fas fa-desktop"></i>
+                    </div>
+                    <div class="topic">Web Development</div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui
+                        voluptatem eligendi?</p>
+                </div>
+                <div class="box">
+                    <div class="icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <div class="topic">Graphic Design</div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui
+                        voluptatem eligendi?</p>
+                </div>
+                <div class="box">
+                    <div class="icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="topic">Digital Marketing</div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui
+                        voluptatem eligendi?</p>
+                </div>
+                <div class="box">
+                    <div class="icon">
+                        <i class="fab fa-wordpress"></i>
+                    </div>
+                    <div class="topic">WordPress Design</div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui
+                        voluptatem eligendi?</p>
+                </div>
+                <div class="box">
+                    <div class="icon">
+                        <i class="fas fa-quidditch"></i>
+                    </div>
+                    <div class="topic">UI/UX Design</div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui
+                        voluptatem eligendi?</p>
+                </div>
+                <div class="box">
+                    <div class="icon">
+                        <i class="fas fa-tablet-alt"></i>
+                    </div>
+                    <div class="topic">Apps Development</div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui
+                        voluptatem eligendi?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Me Section Start -->
+    <!-- contact section-->
+    <section id="contact">
+        <div class="container mt-3 contactContent">
+            <h1 class="text-center">Contact Me</h1>
+
+            <div class="row mt-4">
+                <div class="col-lg-6">
+                    <!-- to edit google map goto https://www.embed-map.com type your location, generate html code and copy the html  -->
+                    <div style="max-width:100%;overflow:hidden;color:red;width:500px;height:500px;">
+                        <div id="embedmap-canvas" style="height:100%; width:100%;max-width:100%;">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24513.467764071018!2d82.73393850656196!3d27.835146245495253!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3997af494fa636a9%3A0xd062cfb07fa0135!2sBhaluwang%2C%20Lalmatiya%2022404!5e1!3m2!1sen!2snp!4v1674187554273!5m2!1sen!2snp"
+                                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                        <a class="googlemaps-html" href="https://www.embed-map.com"
+                            id="get-data-forembedmap">https://www.embed-map.com</a>
+                        <style>
+                            #embedmap-canvas img {
+                                max-width: none !important;
+                                background: none !important;
+                                font-size: inherit;
+                                font-weight: inherit;
+                            }
+                        </style>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <!-- form fields -->
+                    <form>
+                        <input type="text" class="form-control form-control-lg" placeholder="Name">
+                        <input type="email" class="form-control mt-3" placeholder="Email">
+                        <input type="text" class="form-control mt-3" placeholder="Subject">
+                        <div class="mb-3 mt-3">
+                            <textarea class="form-control" rows="5" id="comment" name="text"
+                                placeholder="Project Details"></textarea>
+                        </div>
+                    </form>
+                    <button type="button" class="btn btn-success mt-3">Contact Me</button>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section Start -->
+    <footer>
+        <div class="text">
+            <span>Created By <a href="https://github.com/dipak1203" target="_blank">DIPAKKUMAL</a> | © 2023 All Rights
+                Reserved.</span>
+        </div>
+    </footer>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
