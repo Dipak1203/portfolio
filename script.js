@@ -68,3 +68,4 @@ $(".i3").animate({
 }, 2000);
 /*var v4 = $(".i4").attr("data-pg");
 $(".i4").animate({width:v4},2000);*/
+
